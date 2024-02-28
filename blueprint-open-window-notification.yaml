@@ -101,6 +101,7 @@ action:
   domain: mobile_app
   type: notify
   message: 'TTS'
-  title: 'Bitte das Fenster {{area_name(window_entity)}} schließen!'
+  data:
+    tts_text: 'Bitte das Fenster {{area_name(window_entity)}} schließen!'
 
 mode: single
