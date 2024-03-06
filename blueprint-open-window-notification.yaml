@@ -54,7 +54,6 @@ blueprint:
       selector: 
         device:
           integration: mobile_app
-          multiple: true
 
 # We will have two triggers, for the two different reminders. 
 # However, a reminder will be ignored if the door or window is already closed by then. 
