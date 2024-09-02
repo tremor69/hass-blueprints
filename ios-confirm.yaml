@@ -62,7 +62,7 @@ action:
               data:
                 actions:
                   - action: "{{ confirm }}"
-                    title: Confirm
+                    title: Ja
                     destructive: !input "destructive"
                   - action: "no"
                     title: Nein
