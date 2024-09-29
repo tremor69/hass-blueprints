@@ -94,13 +94,7 @@ action:
 - device_id: !input device_identifier
   domain: mobile_app
   type: notify
-  message: 'Time to close {{trigger.to_state.attributes.friendly_name}}.'
-  title: 'Close {{area_name(window_entity)}}!'
-- device_id: !input device_identifier
-  domain: mobile_app
-  type: notify
-  message: 'TTS'
-  data:
-    tts_text: 'Bitte das Fenster {{area_name(window_entity)}} schließen!'
+  message: 'Es ist Zeit {{trigger.to_state.attributes.friendly_name}} zu schließen.'
+  title: 'Schließe {{area_name(window_entity)}}!'
 
 mode: single
